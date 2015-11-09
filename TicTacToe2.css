@@ -1,0 +1,237 @@
+body {
+}
+
+
+#goLastDot {
+    margin-right: 25px;
+}
+
+#goLast {
+}
+
+#goFirst {
+    margin-left: 30px;
+}
+
+#goFirstDot {
+}
+
+#playAgainPrompt {
+    display: none;
+}
+
+.black {
+    background-color: black;
+}
+
+.buttons {
+    width: 35px;
+    height: 35px;
+    margin-left: 40px;
+    margin-top: 10px;
+    color: black;
+    padding-bottom: 20px;
+    padding-top: -20px;
+    border-radius: 50px;
+    background-color: white;
+    float: left;
+}
+
+.buttonLabel {
+    margin-top: 15px;
+    margin-left: 15PX;
+    float: left;
+    color: white;
+}
+
+.button2Labels {
+    color: black;
+    margin-top: 7px;
+    margin-left: 55PX;
+    float: left;
+}
+
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+
+
+.dot {
+    border: inset;
+    background-color: black;
+    height: 25px;
+    width: 25px;
+    border-radius: 25px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+
+
+
+.frame {
+    border-radius: 25px;
+    float: none;
+    margin-top: 30px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-top: 20px;
+    align-content: center;
+    background-color: white;
+    border-color: white;
+    color: black;
+    height: 400px;
+    width: 400px;
+}
+
+.ipad {
+    padding: 30PX;
+    border: inset;
+    align-content: center;
+    text-align: center;
+    background-color: black;
+    border-color: white;
+    color: black;
+    height: 700px;
+    width: 650px;
+    border-radius: 25px;
+    border-left: 1px solid #8a8a8a;
+    border-top: 1px solid #8a8a8a;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+
+
+.key {
+    border: inset;
+    color: white;
+    padding: 5px -35px 5px 15px;
+    float: left;
+    font-family: 'Times New Roman';
+    font-size: 105px;
+    height: 120px;
+    width: 120px;
+    border-bottom-left-radius: 100%10px;
+    border-bottom-right-radius: 100%10px;
+    border-top-left-radius: 100%10px;
+    border-top-right-radius: 100%10px;
+}
+
+.largeDialogue {
+    width: 400px;
+    height: 75px;
+}
+
+
+.modalDialogue {
+    border-radius: 25px;
+    background: black;
+    color: white;
+    position: absolute;
+    /*position: fixed;*/
+    padding-top: 2px;
+    left: 50%;
+    top: 50%;
+    /*margin-left: -18px;*/
+    /*margin-top: -150px;*/
+    border: solid white;
+
+    /*position: fixed;*/
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+
+
+.modalButton {
+    color: black;
+    border-radius: 25px;
+    background-color: white;
+    border: solid white;
+    height: 25px;
+    /*display:inline-block;*/
+}
+
+
+.playButtons {
+    background-color: white;
+    padding-top: -10px;
+    padding-bottom: 10px;
+    border: inset;
+    border-color: white;
+    margin-top: 20px;
+    /*width: 190px;*/
+    width: 275px;
+    height: 40px;
+}
+
+.playButton {
+    border-radius: 25px 0px 0px 25px;
+    margin-left: 10px;
+    float: left;
+}
+
+.resetButton {
+    margin-right: 10px;
+    border-radius: 0px 25px 25px 0px;
+    float: right;
+}
+
+
+.screen {
+    text-align: right;
+    background-color: #66CCFF;
+    border: groove;
+    color: black;
+    height: 40px;
+    width: 250px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+
+.script {
+    font: 400 30px/0.8 'Great Vibes', Helvetica, sans-serif;
+    text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.shadow {
+    box-shadow: 10px 10px 6px -6px #777;
+}
+
+.smallDialogue {
+    width: 300px;
+    height: 35px;
+}
+
+.title {
+    margin-top: 45px;
+    padding-top: 25px;
+    color: white;
+    margin: 20px;
+}
+
+
+.testOutput {
+    margin-top: 50px;
+    color: white;
+}
+
+.yourTurn {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    text-align: right;
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+}
