@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="TicTacToe2.css" rel="stylesheet" />
+    <link href="http://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+
+
+    <div class='container'>
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar" role="navigation">
+
+                    <div class="row">
+                        <div class="col-lg-1 col-centered ipad shadow">
+
+                            <span class="title script">
+                                <p>Free Code Camp - Tic Tac Toe</p>
+                                <!--<p>Tic Tac Toe</p>-->
+                            </span>
+                            <span class="yourTurn">YOUR TURN!
+                            </span>
+                            <div class="row frame">
+
+                                <div id="a" class="key black">
+                                    <span>X</span>
+                                </div>
+                                <div id="b" class="key black">
+                                    <span>O</span>
+                                </div>
+                                <div id="c" class="key black">
+                                    <span>X</span>
+                                </div>
+
+                                <div id="d" class="key black">
+                                    <span>O</span>
+                                </div>
+                                <div id="e" class="key black">
+                                    <span>X</span>
+                                </div>
+                                <div id="f" class="key black">
+                                    <span>O</span>
+                                </div>
+
+                                <div id="g" class="key black">
+                                    <span>1</span>
+                                </div>
+                                <div id="h" class="key black">
+                                    <span>2</span>
+                                </div>
+                                <div id="i" class="key black">
+                                    <span>3</span>
+                                </div>
+                            </div>
+                            <!--                            end class=row-->
+                            <div class="row">
+                                <div id="goFirst" class="buttons">
+                                    <div id='goFirstDot' class="dot">
+                                    </div>
+                                </div>
+                                <div class="buttonLabel script">
+                                    X - Player Starts
+                                
+                                </div>
+
+                                <div id="goLast" class="buttons">
+                                    <div id='goLastDot' class="dot">
+                                    </div>
+                                </div>
+
+                                <div class="buttonLabel script">
+                                    O - Computer Starts 
+                                
+                                </div>
+                            </div>
+
+
+                            <div id="play" class="row playButton playButtons">
+                                <div class="button2Labels script">
+                                    Play
+                                
+                                </div>
+
+                            </div>
+
+                            <div id="reset" class="row resetButton playButtons">
+                                <div class="button2Labels script">
+                                    Reset
+                                
+                                </div>
+
+                            </div>
+
+
+                            <div id="playAgainPrompt" class="modalDialogue smallDialogue">
+                                Do you want to play again?
+                                <input id="playAgainYes" class="modalButton" type="button" value="Yes">
+                                <input id="playAgainNo" class="modalButton" type="button" value="No">
+                            </div>
+   <!--                          <div id="playerFirstMessage" class="modalDialogue largeDialogue">
+                                Please note: If the Computer goes first the Player will not be able to win.  When the Player goes first, the Player should be able to win.
+                                <input id="playerGoesFirstOk" class="modalButton" type="button" value="OK">
+                                
+                            </div>-->
+
+                            <!--<div class="row ">
+                                <div class="testOutput">
+                                    remaining options
+                                
+                                    <div id="testChoices">
+                                        options
+                                    </div>
+                                    <div id="humanChoices">
+                                        options
+                                    </div>
+                                    <div id="computerChoices">
+                                        options
+                                    </div>
+                                </div>
+
+                            </div>-->
+
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <script src="Scripts/jquery-2.1.4.min.js"></script>
+    <script src="TicTacToe2.js"></script>
+</body>
+</html>
